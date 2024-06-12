@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero,
+.content,
+.quote,
+.cta {
+    padding: 8px;
+    flex: 1;
+}
+
+
+.header, /* hero */ .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+
+.header > .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* temporary styling so i can see the difference*/
+.hero {
+    background-color: lightcyan;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
