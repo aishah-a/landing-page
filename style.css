@@ -63,41 +63,15 @@ body {
     align-items: center;
 }
 
+.hero_text {
+    font-weight: 300;
+}
+
 img {
     width: 100%;
     min-width: 200px;
 }
 
-/*
-img {
-    width: 100%;
-}
-
-
-*/
-
-/*
-.hero_left {
-    background-color: lightskyblue;
-    flex-wrap: wrap;
-    max-width: 50%;
-}
-
-.hero_image {
-    background-color: lavender;
-    flex: 1;
-}
-
-
-*/
-/* add min value to hero image to reduce wrapping? */
-/*
-.hero_image {
-    flex: 1 1 200px;
-    padding: 16px;
-}
-
-/* list/link styles all good, move back up later */
 ul {
     list-style-type: none;
     margin: 0;
@@ -113,7 +87,6 @@ a {
     color: #F9FAF8;
 }
 
-*/
 
 .content {
     background-color: lightpink;
