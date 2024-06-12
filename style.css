@@ -10,10 +10,11 @@ body {
 .top {
     display: flex;
     flex-direction: column;
-    padding: 60px;
+    padding: 48px;
     background-color: #1F2937;
     color: #F9FAF8;
     gap: 16px;
+    flex: 1;
 }
 
 .header {
@@ -33,9 +34,10 @@ body {
 .hero {
     display: flex;
     gap: 32px;
-    min-height: 250px;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 .hero_title {
@@ -55,9 +57,24 @@ body {
 }
 
 .hero_image {
-    background-color: darkcyan;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+img {
+    width: 100%;
+    min-width: 200px;
+}
+
+/*
+img {
+    width: 100%;
+}
+
+
+*/
 
 /*
 .hero_left {
