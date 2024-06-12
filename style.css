@@ -7,13 +7,22 @@ body {
     min-width: fit-content;
 }
 
-.header {
+.top {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
+    padding: 60px;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 8px;
+    gap: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    gap: 4px;
 }
 
 .logo {
@@ -21,24 +30,65 @@ body {
     font-weight: 700;
 }
 
-
-/*
 .hero {
-    height: 300px;
+    display: flex;
+    gap: 32px;
+    min-height: 250px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-*/
+.hero_title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
 
+}
+
+.hero_left,
+.hero_image {
+    flex: 1;
+}
+
+.hero_left {
+    flex-wrap: wrap;
+}
+
+.hero_image {
+    background-color: darkcyan;
+}
+
+
+/*
+.hero_left {
+    background-color: lightskyblue;
+    flex-wrap: wrap;
+    max-width: 50%;
+}
+
+.hero_image {
+    background-color: lavender;
+    flex: 1;
+}
+
+
+*/
+/* add min value to hero image to reduce wrapping? */
+/*
+.hero_image {
+    flex: 1 1 200px;
+    padding: 16px;
+}
 
 /* list/link styles all good, move back up later */
 ul {
     list-style-type: none;
     margin: 0;
-    padding-left: 20px;
+    padding: 0;
     display: flex;
     gap: 32px;
-    justify-content: space-evenly;
-    flex: 1;
+    justify-content: space-around;
+    font-weight: 300;
 }
 
 a {
@@ -46,20 +96,7 @@ a {
     color: #F9FAF8;
 }
 
-
-
-.hero {
-    background-color: yellow;
-    padding: 8px;
-}
-
-.hero_left {
-    background-color: lightskyblue;
-}
-
-.hero_image {
-    background-color: lavender;
-}
+*/
 
 .content {
     background-color: lightpink;
