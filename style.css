@@ -6,9 +6,17 @@ body {
 }
 
 .header,
+.info,
+.quote,
+.cta,
+.footer {
+    padding: 16px 150px 32px;
+}
+
+
+.header,
 .footer {
     background-color: #1F2937;
-    padding: 32px;
 }
 
 .header {
@@ -20,11 +28,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 56px;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 .links {
@@ -36,4 +46,17 @@ body {
 
 .hero {
     display: flex;
+}
+
+.hero_title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    flex-shrink: 0;
+}
+
+.hero_img {
+    background-color: lightgray;
+    width: 450px;
+    flex-shrink: 0;
 }
