@@ -10,9 +10,8 @@ body {
 .quote,
 .cta,
 .footer {
-    padding: 16px 150px 32px;
+    padding: 32px 100px 24px;
 }
-
 
 .header,
 .footer {
@@ -22,6 +21,7 @@ body {
 .header {
     display: flex;
     flex-direction: column;
+    padding-bottom: 80px;
 }
 
 .header_text {
@@ -35,6 +35,7 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+    margin-right: 16px;
 }
 
 .links {
@@ -56,8 +57,7 @@ body {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-    flex-shrink: 0;
-    margin-bottom: 16px;
+    margin: 0 16px 16px 0
 }
 
 .hero_text {
@@ -76,9 +76,14 @@ body {
 .hero_img {
     color: white;
     background-color: #a5a5a5;
-    width: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0;
+    min-width: 200px;
+    border-radius: 15px;
+}
+
+.hero_left,
+.hero_img {
+    flex: 1;
 }
