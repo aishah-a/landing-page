@@ -10,7 +10,7 @@ body {
 .quote,
 .cta,
 .footer {
-    padding: 32px 100px 24px;
+    padding: 32px 150px 24px;
 }
 
 .header,
@@ -28,7 +28,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 56px;
+    margin-bottom: 80px;
 }
 
 .logo {
@@ -51,6 +51,7 @@ body {
 
 .hero {
     display: flex;
+    /* gap: 40px; */
 }
 
 .hero_title {
@@ -71,6 +72,8 @@ body {
     width: 120px;
     border: none;
     border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .hero_img {
