@@ -40,6 +40,10 @@ body {
 .links {
     display: flex;
     gap: 16px;
+}
+
+.links,
+.hero_text {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -53,10 +57,28 @@ body {
     color: #F9FAF8;
     font-weight: 900;
     flex-shrink: 0;
+    margin-bottom: 16px;
+}
+
+.hero_text {
+    margin: 0 16px 16px 0;
+}
+
+.hero_btn {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px;
+    width: 120px;
+    border: none;
+    border-radius: 8px;
 }
 
 .hero_img {
-    background-color: lightgray;
+    color: white;
+    background-color: #a5a5a5;
     width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
 }
