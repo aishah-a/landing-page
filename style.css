@@ -41,6 +41,20 @@ body {
     gap: 16px;
 }
 
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+a:visited {
+    color: #F9FAF8;
+}
+
+a:hover {
+    color: #3882F6; 
+}
+
 .links,
 .hero_text {
     font-size: 18px;
