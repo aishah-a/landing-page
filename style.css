@@ -169,3 +169,8 @@ button {
     border-radius: 4px;
     padding: 8px 32px;
 }
+
+.footer {
+    text-align: center;
+    color:#F9FAF8
+}
